@@ -1,31 +1,11 @@
-# README
-# やらないといけない
- 1.共通部分を完成 ok
- 2.bootstrap ok
- 3.メッセージ ok
- 4.レコードの並び順 ok
- 5.validation ok
- 6.テスト ok
- 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 下記のURLが課題8の課題となります。
+課題8<br>
+Bookers2にメール送信機能を追加しましょう<br>
+ActionMailerを用いて、新規登録したユーザーにthanksメールを送ること<br>
+実装する機能<br>
+<br>
+メイラー<br>
+thanksメイラーを作成すること<br>
+メール本文は自由とする<br>
+コントローラ<br>
+deviseのregistrationsコントローラをオーバーライドし、新規登録に成功した後、thanksメイラーを呼び出すこと
